@@ -9,3 +9,9 @@ function yell10(input) {
 }
 
 console.log(yell10("this is my inside voice "));
+
+function yell15(input) {
+  return (yell(input).repeat(15));
+}
+
+console.log(yell15("this is my inside voice"));

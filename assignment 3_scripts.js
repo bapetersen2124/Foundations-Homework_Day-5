@@ -9,3 +9,22 @@ function longest(input1, input2) {
 }
 
 (longest("this is my inside voice","bernesto the besto my favorite little pesto"));
+
+function longer (a,b) {
+  if (a.length > b.length) {
+    return a;
+  } else {
+    return b;
+  }
+}
+
+console.log(longer("lovebug","banana"));
+
+function longer (a,b) {
+  if (a.length === b.length) {
+    return "they are the same length";
+  } else if (a.length > b.length) {
+    return a;
+  } else
+    return b;
+}
